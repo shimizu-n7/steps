@@ -29,7 +29,7 @@ function App() {
     <>
       <div>
         <button className="close" onClick={() => setIsOpen((is) => !is)}>
-          &times;
+          {isOpen ? "×" : "Open"}
         </button>
       </div>
 
